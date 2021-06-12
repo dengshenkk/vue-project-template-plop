@@ -1,0 +1,13 @@
+/**
+ * {{name}} Router createTime {{time}}
+ *
+ */
+
+
+export const {{name}}Router = [
+    {
+        path: '/{{name}}',
+        name: '{{name}}',
+        component: () => import(/* webpackChunkName: {{name}} */'@/views/{{name}}/index.vue')
+    }
+]

@@ -1,0 +1,33 @@
+<template>
+    <div class="{{name}}-wrap">
+
+    </div>
+</template>
+
+<script>
+/**
+ * {{ properCase name }} create by haijinsha
+ * createTime {{time}}
+ */
+export default {
+    name: '{{ properCase name }}',
+    props: {},
+    mixins: [],
+    data() {
+        return {}
+    },
+    created() {},
+    mounted() {
+        this.init()
+    },
+    methods: {
+        init () {
+            console.log('init')
+        }
+    }
+}
+</script>
+
+<style lang="scss" scoped>
+@import "./index";
+</style>
